@@ -1,13 +1,13 @@
- .card-1 { 
-  background-color:#49623C;
+.card-1 {
+  background-color: #49623c;
   font-family: "Kay Pho Du", serif;
   font-weight: 400;
   font-style: normal;
   color: #f5f0e1;
   width: auto;
-    height: auto;
+  height: auto;
   margin-top: auto;
-   border: 15px;
+  border: 15px;
   border-style: solid;
   border-color: #87b86e;
   border-radius: 10%;
@@ -15,16 +15,44 @@
   text-align: center;
 }
 
+.card-1 p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-1 p.num {
+  font-size: 18px;
+}
+
 .card-2 {
   background-color: black;
-  font-family: "Nabla", system-ui;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "EDPT" 100,
-    "EHLT" 12;
+  font-variation-settings: "EDPT" 100, "EHLT" 12;
   color: purple;
   text-align: center;
   font-size: 20px;
+}
+
+.card-2 .top {
+ font-family: "Nabla", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.card-2 .bottom {
+  display: flex;
+  justify-content: space-around;
+  height: 500px;
+}
+
+.card-2 .words {
+  margin-top: 50px
+}
+
+.card-2 img {
+  width: 80px;
 }
